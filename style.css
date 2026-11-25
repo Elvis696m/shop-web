@@ -1,0 +1,14 @@
+#menuBtn{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: none;
+    border: 1px solid;
+    cursor: pointer;
+}
+button span{
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    border-radius: 20px;
+}
