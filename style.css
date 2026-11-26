@@ -1,14 +1,44 @@
-#menuBtn{
+
+#menuBtn {
     display: flex;
     flex-direction: column;
     gap: 6px;
     background: none;
     border: 1px solid;
     cursor: pointer;
+    padding: 8px;
 }
-button span{
+
+#menuBtn span {
     width: 20px;
     height: 2px;
     background-color: black;
     border-radius: 20px;
 }
+
+#navMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 180px;
+    background-color: #0f172a;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#navMenu a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    padding: 8px;
+}
+
+#navMenu a:hover {
+    color: aqua;
+    background-color: #1e293b;
+    border-radius: 5px;
+}
+#navMenu{
+    display: none;
+}
+
